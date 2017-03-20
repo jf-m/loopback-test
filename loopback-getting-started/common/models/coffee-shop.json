@@ -1,6 +1,5 @@
 {
   "name": "CoffeeShop",
-  "plural": "Y",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
@@ -12,8 +11,7 @@
       "required": true
     },
     "city": {
-      "type": "string",
-      "required": true
+      "type": "string"
     }
   },
   "validations": [],
